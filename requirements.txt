@@ -5,4 +5,4 @@ mysql.connector
 pymysql
 sqlalchemy
 schedule
-lxml-4.7.1
+lxml
