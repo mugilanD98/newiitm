@@ -1,1 +1,1 @@
-worker: python Scripts/iitm.py
+worker: python iitm.py
