@@ -10,6 +10,9 @@ import pandas as pd
 import lxml
 import schedule
 import time
+import mysql.connector
+import pymysql
+from sqlalchemy import create_engine
 
 
 # In[14]:
@@ -25,7 +28,10 @@ def scrc():
     for i in range(0,3):
       renew_india.append(renewable[i].text)
     renew_india.append(location)
+    
+    
     print(renew_india)
+    
 
 
 # In[23]:
