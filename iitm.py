@@ -29,10 +29,8 @@ def scrc():
       renew_india.append(renewable[i].text)
     renew_india.append(location)
     a=[renew_india]
-    renew=pd.DataFrame(a,columns=[''
-    
-    
-    print(renew_india)
+    renew=pd.DataFrame(a,columns=['co2','solar','wind','location'])
+    print(renew)
     
 
 
