@@ -28,6 +28,8 @@ def scrc():
     for i in range(0,3):
       renew_india.append(renewable[i].text)
     renew_india.append(location)
+    a=[renew_india]
+    renew=pd.DataFrame(a,columns=[''
     
     
     print(renew_india)
